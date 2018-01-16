@@ -44,15 +44,74 @@ public class ProblemsTest {
     }
 
     @Test
-    public void selectEvenNumber_ordering_is_preserved() {
-
-    }
-
-    @Test
     public void selectEvenNumber_null_input_returns_empty() {
 
     }
 
 
-    /////////
+    ///////// removeDupes test
+
+    @Test
+    public void removeDupes_empty_returns_empty() {
+
+    }
+
+    @Test
+    public void removeDupes_all_dupes_returns_empty() {
+
+    }
+
+    @Test
+    public void removeDupes_no_dupes_returns_all() {
+
+    }
+
+    @Test
+    public void removeDupes_4ples_returns_empty() {
+
+    }
+
+    @Test
+    public void removeDupes_works_on_negative_nums() {
+
+    }
+
+    @Test
+    public void removeDupes_works_on_zero() {
+
+    }
+
+    // countTheLetters
+
+
+    @Test
+    public void countTheLetters_works_on_empty_input() {
+
+    }
+
+    @Test
+    public void countTheLetters_works_on_null_input() {
+
+    }
+
+    @Test
+    public void countTheLetters_works_on_single_char() {
+
+    }
+
+    @Test
+    public void countTheLetters_works_on_duplicate_char_word() {
+
+    }
+
+    @Test
+    public void countTheLetters_works_on_multi_char_word() {
+
+    }
+
+    @Test
+    public void countTheLetters_works_on_symbols() {
+
+    }
+
 }

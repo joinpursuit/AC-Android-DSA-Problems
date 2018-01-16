@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class Problems {
 
     public static void main(String[] args) {
-	// write your code here
+
     }
 
 
@@ -14,8 +14,12 @@ public class Problems {
      * If there are no even numbers, return the empty array.
      */
     public static int[] selectEvenNumbers(int[] numbers) {
-        return null;
+        return numbers;
     }
+
+
+
+
 
     /**
      Given an array of integers, write a method called int[] removeDupes(int[] input) that returns a new array of just the unique values.
@@ -33,8 +37,15 @@ public class Problems {
      ```
      */
     public static int[] removeDupes(int[] numbers) {
-        return null;
+        return numbers;
     }
+
+
+    /**
+    Alternative form of removeDupes is getDistinct() that returns the distinct elements in the array.
+     */
+
+
 
     /**
      Given a string, write a method called countTheLetters takes a string input and returns a map containing a count for each of the letters in the string.
